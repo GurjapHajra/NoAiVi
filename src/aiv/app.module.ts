@@ -9,7 +9,13 @@ import { HomePageComponent } from './screens/home-page/home-page.component';
 import { UploaderComponent } from './screens/uploader/uploader.component';
 
 @NgModule({
-  declarations: [AppComponent, ImageUploaderDirective, MediaUploaderComponent, HomePageComponent, UploaderComponent],
+  declarations: [
+    AppComponent,
+    ImageUploaderDirective,
+    MediaUploaderComponent,
+    HomePageComponent,
+    UploaderComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

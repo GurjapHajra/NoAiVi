@@ -3,12 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { UploaderRoutingModule } from './uploader-routing.module';
 
-
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    UploaderRoutingModule
-  ]
+  imports: [CommonModule, UploaderRoutingModule],
 })
-export class UploaderModule { }
+export class UploaderModule {}
